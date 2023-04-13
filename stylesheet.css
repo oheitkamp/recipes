@@ -1,0 +1,43 @@
+body {
+    font-family: Verdana, Tahoma, sans-serif;
+    background: linear-gradient(to bottom, #F5DEB3, #F3CFA2);
+    min-height: 100vh; /* Set the minimum height of the body to 100% of the viewport height */
+    margin: 0; /* Remove default margins */
+    padding: 0; /* Remove default padding */
+  }
+
+  img {
+    border-radius: 25px; /* Add a 25px border radius to create curved edges */
+  }
+
+  .panel {
+    border: 10px solid white; /* 20px white border around the panel */
+    margin: 50px auto; /* Center the panel horizontally */
+    max-width: 800px; /* Set a maximum width for the panel */
+    background-color: #000; /* Black background for the panel */
+    color: #FFF; /* White text for the panel */
+    padding: 20px; /* Add some padding to the panel */
+    border-radius: 25px; /* Add a 25px border radius to create curved edges */
+
+    display: flex; /* Allows for dynamic resizing and positioning of child elements */
+    flex-direction: column; /* Arranges child elements in a vertical column */
+    justify-content: center; /* Cemters child elements within panel vertically */
+    align-items: center; /* Centers chuild elements within panel horizontally */
+  }
+
+  /* Apply the class to the list items within the panel */
+  .panel ul li {
+    list-style: none; /* Remove default bullet points */
+  }
+  
+  .panel ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #ffffff; /* Set the link color to white */
+  }
+  
+  .panel ul li a:hover {
+    text-decoration: underline; /* Add underline to links on hover */
+  }
+
+  
+  
