@@ -2,12 +2,12 @@ body {
     font-family: Verdana, Tahoma, sans-serif;
     background: linear-gradient(to bottom, #F5DEB3, #F3CFA2);
     min-height: 100vh; /* Set the minimum height of the body to 100% of the viewport height */
-    margin: 0; /* Remove default margins */
+    margin: 11; /* Add minimal margins */
     padding: 0; /* Remove default padding */
   }
 
   img {
-    max-inline-size: 80%; /* Scales image with screen size responsively */
+    max-inline-size: 90%; /* Scales image with screen size responsively */
     block-size: auto; /* Keeps ratio of image consistent*/
     border-radius: 25px; /* Add a 25px border radius to create curved edges */
   }
