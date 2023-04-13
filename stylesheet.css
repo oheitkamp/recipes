@@ -1,8 +1,8 @@
 body {
-    font-family: Verdana, Tahoma, sans-serif;
-    background: linear-gradient(to bottom, #F5DEB3, #F3CFA2);
+    font-family: Verdana, Tahoma, sans-serif; /* Add fonts w backups */
+    background: linear-gradient(to bottom, #F5DEB3, #F3CFA2); /* Add transitional gradient */
     min-height: 100vh; /* Set the minimum height of the body to 100% of the viewport height */
-    margin: 11; /* Add minimal margins */
+    margin: 12px; /* Add some margins */
     padding: 0; /* Remove default padding */
   }
 
