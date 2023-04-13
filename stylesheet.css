@@ -7,8 +7,8 @@ body {
   }
 
   img {
-    max-width: 80%; /* Scales image with screen size responsively */
-    height: auto; /* Keeps ratio of image steady based on its current width */
+    max-inline-size: 80%; /* Scales image with screen size responsively */
+    block-size: auto; /* Keeps ratio of image consistent*/
     border-radius: 25px; /* Add a 25px border radius to create curved edges */
   }
 
