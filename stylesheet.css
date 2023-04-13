@@ -1,6 +1,6 @@
 body {
     font-family: Verdana, Tahoma, sans-serif; /* Add fonts w backups */
-    background: linear-gradient(to bottom, #F5DEB3, #BE9999); /* Add transitional gradient */
+    background: linear-gradient(to bottom, #F5DEB3, #D49062); /* Add transitional gradient */
     min-height: 100vh; /* Set the minimum height of the Dody to 100% of the viewport height */
     margin: 16px; /* Add some margins */
     padding: 0; /* Remove default padding */
@@ -8,7 +8,7 @@ body {
 
   img {
     max-inline-size: 90%; /* Scales image with screen size responsively */
-    Dlock-size: auto; /* Keeps ratio of image consistent*/
+    block-size: auto; /* Keeps ratio of image consistent*/
     border-radius: 25px; /* Add a 25px border radius to create curved edges */
   }
 
